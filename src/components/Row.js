@@ -12,7 +12,7 @@ function Row({title,fetchUrl,isLargeRow }) {
             setMovies(request.data.results)
         }
         fetchData()
-    },[])
+    })
     console.log('Our movies is', movies)
   return (
     <div className='row'>
